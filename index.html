@@ -1,12 +1,97 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<title>나의 VWO 실험 페이지</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Lip Balm Promo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-<h1>안녕하세요! A초입니다.</h1>
-<p>이 버튼의 색상을 바꾸는 A/B 테스트를 진행할 예정입니다.</p>
-<button id="test-button">구매하기</button>
+<body class="bg-gradient-to-br from-pink-50 to-white font-sans">
+
+  <!-- Hero Section -->
+  <section class="max-w-6xl mx-auto p-6 grid md:grid-cols-2 gap-8 items-center">
+    <div>
+      <span class="bg-pink-400 text-white px-4 py-1 rounded-full text-sm">지금 구매 시</span>
+      <h1 class="text-4xl md:text-5xl font-bold mt-4">
+        <span class="text-pink-500">미니 립밤</span><br/>증정!
+      </h1>
+      <p class="mt-4 text-gray-600">원하는 컬러를 선택하세요</p>
+
+      <button class="mt-6 bg-pink-500 text-white px-6 py-3 rounded-2xl shadow-lg hover:bg-pink-600 transition">
+        지금 구매하기
+      </button>
+    </div>
+
+    <div class="flex justify-center">
+      <img src="https://via.placeholder.com/300x400" class="rounded-3xl shadow-xl" alt="lip tint">
+    </div>
+  </section>
+
+  <!-- Color Selection -->
+  <section class="max-w-6xl mx-auto p-6">
+    <h2 class="text-2xl font-bold text-center mb-8">미니 립밤 컬러 선택</h2>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+
+      <div class="bg-white rounded-2xl p-4 shadow text-center">
+        <img src="https://via.placeholder.com/120" class="mx-auto mb-2">
+        <h3 class="font-semibold">01 베어</h3>
+        <p class="text-sm text-gray-500">자연스러운 생기 베이지</p>
+      </div>
+
+      <div class="bg-white rounded-2xl p-4 shadow text-center">
+        <img src="https://via.placeholder.com/120" class="mx-auto mb-2">
+        <h3 class="font-semibold">02 핑크</h3>
+        <p class="text-sm text-gray-500">사랑스러운 핑크빛</p>
+      </div>
+
+      <div class="bg-white rounded-2xl p-4 shadow text-center">
+        <img src="https://via.placeholder.com/120" class="mx-auto mb-2">
+        <h3 class="font-semibold">03 코랄</h3>
+        <p class="text-sm text-gray-500">화사한 코랄</p>
+      </div>
+
+      <div class="bg-white rounded-2xl p-4 shadow text-center">
+        <img src="https://via.placeholder.com/120" class="mx-auto mb-2">
+        <h3 class="font-semibold">04 로즈</h3>
+        <p class="text-sm text-gray-500">차분한 로즈</p>
+      </div>
+
+      <div class="bg-white rounded-2xl p-4 shadow text-center">
+        <img src="https://via.placeholder.com/120" class="mx-auto mb-2">
+        <h3 class="font-semibold">05 베리</h3>
+        <p class="text-sm text-gray-500">톡톡 튀는 베리</p>
+      </div>
+
+      <div class="bg-white rounded-2xl p-4 shadow text-center">
+        <img src="https://via.placeholder.com/120" class="mx-auto mb-2">
+        <h3 class="font-semibold">06 체리</h3>
+        <p class="text-sm text-gray-500">맑고 선명한 체리</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Promo Card -->
+  <section class="max-w-4xl mx-auto p-6">
+    <div class="bg-pink-50 border border-pink-200 rounded-3xl p-8 flex flex-col md:flex-row items-center gap-6">
+      <div class="flex-1">
+        <span class="bg-pink-400 text-white px-4 py-1 rounded-full text-sm">지금 구매 시</span>
+        <h2 class="text-3xl font-bold mt-3">
+          <span class="text-pink-500">미니 립밤</span> 증정!
+        </h2>
+        <p class="mt-3 text-gray-600">건조한 입술을 촉촉하게! 휴대하기 좋은 미니 사이즈</p>
+      </div>
+      <img src="https://via.placeholder.com/150" class="rounded-2xl shadow">
+    </div>
+  </section>
+
+  <!-- Footer CTA -->
+  <section class="text-center py-10">
+    <button class="bg-pink-500 text-white px-8 py-4 rounded-2xl text-lg shadow-lg hover:bg-pink-600">
+      지금 구매하고 혜택 받기
+    </button>
+  </section>
+
 </body>
-</html>  
+</html>
